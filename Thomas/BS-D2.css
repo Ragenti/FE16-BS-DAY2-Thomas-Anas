@@ -1,0 +1,43 @@
+/*👉nav{
+    color:white;
+}👈*/
+header{
+    width: 100%;
+    height: 150px;;
+    background-color: lightgray;
+}
+nav{
+    /*👉font-size: 300%;
+    text-align: center;
+    color: aliceblue;👈*/
+    font-size:xxx-large;
+    flex-wrap: nowrap;
+}
+.navbar-brand{
+    font-size: 140%;
+    
+}
+.flex-column{
+    width: 10%;
+}
+.text{
+    border: 5px  black;
+    border-style: double;
+    text-align: center;
+    height: 750px;
+}
+.flex-row{
+    background-color: lightgray;
+}
+.tab-content{
+    width: 70%;
+    margin-bottom: 1%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 100px;
+}
+.name{
+    font-size: 300%;
+}

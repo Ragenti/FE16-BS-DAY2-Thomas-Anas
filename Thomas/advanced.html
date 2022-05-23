@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS advanced</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="BS-D2.css">
+    <script src="bootstrap.bundle.js"></script>
+</head>
+<body>
+    <header>
+        <nav  class="navbar fixed-top navbar-expand-md navbar-dark bg-dark justify-content-evenly">
+            <a class="navbar-brand text-muted">Movie Title:</a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+            <div calss = "collapse navbar-collapse"  id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class = "navbar-item nav-link me-4" href="">Plot</a>
+                    <a class ="navbar-item nav-link me-4" href="">Actors</a>
+                    <a class ="navbar-item nav-link" href="">Reviews</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="nav flex-row justify-content-around">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false">Home</a>
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                <a class="nav-link" id="v-pills-actor5-tab" data-toggle="pill" href="#v-pills-actor5" role="tab" aria-controls="v-pills-actor5" aria-selected="false">actor5</a>
+                <a class="nav-link" id="v-pills-actor6-tab" data-toggle="pill" href="#v-pills-actor6" role="tab" aria-controls="v-pills-actor6" aria-selected="false">actor6</a>
+                <a class="nav-link" id="v-pills-actor7-tab" data-toggle="pill" href="#v-pills-actor7" role="tab" aria-controls="v-pills-actor7" aria-selected="false">actor7</a>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="text">
+                        <h2 class="text-muted name">Burger Burger</h2>
+                        <img class="rounded-circle img-thumbnail" width="75%" src="actor.jpg" alt="thats a burger actually">
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="text">
+                        <h2 class="text-muted name">Burger Burger</h2>
+                        <img class="rounded-circle img-thumbnail" width="75%" src="actor.jpg" alt="thats a burger actually">
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="text">
+                        <h2 class="text-muted name">Burger Burger</h2>
+                        <img class="rounded-circle img-thumbnail" width="75%" src="actor.jpg" alt="thats a burger actually">
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <div class="text">
+                        <h2 class="text-muted name">Burger Burger</h2>
+                        <img class="rounded-circle img-thumbnail" width="75%" src="actor.jpg" alt="thats a burger actually">
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="v-pills-actor5" role="tabpanel" aria-labelledby="v-pills-actor5-tab">
+                    <div class="text">
+                        <h2 class="text-muted name">Burger Burger</h2>
+                        <img class="rounded-circle img-thumbnail" width="75%" src="actor.jpg" alt="thats a burger actually">
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="v-pills-actor6" role="tabpanel" aria-labelledby="v-pills-actor6-tab">
+                    <div class="text">
+                        <h2 class="text-muted name">Burger Burger</h2>
+                        <img class="rounded-circle img-thumbnail" width="75%" src="actor.jpg" alt="thats a burger actually">
+                    </div> 
+                </div>
+                <div class="tab-pane fade" id="v-pills-actor7" role="tabpanel" aria-labelledby="v-pills-actor7-tab">
+                    <div class="text">
+                        <h2 class="text-muted name">Burger Burger</h2>
+                        <img class="rounded-circle img-thumbnail" width="75%" src="actor.jpg" alt="thats a burger actually">
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div>
+            <h2>Actor 1</h2>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h2>Actor 1</h2>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h2>Actor 1</h2>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h2>Actor 1</h2>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h2>Actor 1</h2>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h2>Actor 1</h2>
+            <img src="" alt="">
+        </div>
+        <div>
+            <h2>Actor 1</h2>
+            <img src="" alt="">
+        </div> -->
+    </main>
+    <footer class="text-muted">
+        <h1 class="py-4">That's All! :)
+    </footer>
+</body>
+</html>
